@@ -6,12 +6,24 @@
         "main"
         "aside"
         "footer";
+        background-color: aqua;
+        
 }
 
-.site-header { grid-area: header; }
-.site-main { grid-area: main; }
-.site-aside { grid-area: aside; }
-.site-footer { grid-area: footer; }
+.site-header {
+    grid-area: header;
+}
+.site-main{
+    grid-area:main;
+}
+
+.site-aside{
+    grid-area:aside;
+}
+
+.site-footer{
+    grid-area:footer;
+}
 
 @media (min-width: 600px) {
     .page {
@@ -21,4 +33,12 @@
         "main aside"
         "footer footer";
     }
+}
+
+div{
+    background-color: rgb(229, 88, 196);
+}
+
+h1{
+    background-color: yellow;
 }
